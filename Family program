@@ -1,0 +1,19 @@
+class test
+{
+public static void main(String args[])throws exception
+{
+Scanner sc = new Scanner(System.in);
+int n = 5;
+
+String family[][] = new String[n][4];
+
+for(int i=1;i<=n;i++)
+{
+for(int j=1;j<=i;j++)
+{
+family[i][j]  = sc.nextLine();
+}
+}
+String person = sc.nextLine();
+
+}
